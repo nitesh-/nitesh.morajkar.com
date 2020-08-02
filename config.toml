@@ -1,4 +1,4 @@
-baseURL = "https://nitesh.morajkar.com/"
+baseURL = "https://nitesh.morajkar.com"
 languageCode = "en-us"
 title = "/home/nitesh"
 theme = "mediumish-gohugo-theme"

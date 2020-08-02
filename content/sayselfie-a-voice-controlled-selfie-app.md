@@ -2,7 +2,7 @@
 title: "Sayselfie - A voice controlled selfie app"
 date: "2014-09-13"
 slug: "sayselfie-a-voice-controlled-selfie-app"
-image: "/images/author.png"
+image: "/images/blog/sayselfie.png"
 description: 'SaySelfie is a voice controlled selfie app.'
 tags: ['android']
 ---
