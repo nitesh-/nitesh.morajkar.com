@@ -1,0 +1,37 @@
+baseURL = "https://nitesh.morajkar.com/"
+languageCode = "en-us"
+title = "/home/nitesh"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+copyright = "Nitesh Morajkar - All rights reserved"
+enableEmoji = true
+disqusShortname = "niteshmorajkar"
+googleAnalytics = "UA-35037605-1"
+
+[params]
+  logo = "/images/logo.png"
+  description ="My coding blog!"
+  #mailchimp = "you can provide a mailchimp-link here"
+
+[params.author]
+  name = "Nitesh Morajkar"
+  thumbnail = "/images/author.jpg"
+  description = ""
+
+[params.index]
+  picture = "/images/author.png"
+  title = "Nitesh Morajkar"
+  subtitle = "I'm a unique placeholder. Working here and there!"
+  mdtext = '''
+Currently trying to get this blog running, still don't know what the blog will be about!\
+**This textblock is a demonstration of the mdtext-param.**\
+### This is a markdown heading
+'''
+  alertbar = false
+
+[permalinks]
+  "/" = "/:filename/"
+
+[params.social]
+  github = "nitesh-"
+  linkedin = "neetessh"
