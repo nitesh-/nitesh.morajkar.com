@@ -10,19 +10,19 @@ tags: ['js', 'css']
 
 While uploading minified JS and CSS files to web server, i had to minify individual files and then upload them to web server. So, I wrote a Python script which takes multiple JS and CSS files as arguments on command line and saves them in folder. I upload this folder which contains minified JS-CSS files on webserver.<!-- more -->
 
+``` bash
 Usage: Step 1: Replace yui-compressor path
 
 Usage python minify.py [options...]
 
 Options:
-
 -f --fileStack : Js and css files(comma separated) with absolute path eg: /home/demo/st.js,/home/demo/ss.css
-
 -o --outputDir : Output directory where files are to be stored
-
 -h --help : Display help contents\n
+```
 
-{% highlight python %}#!/usr/bin/env python
+``` python
+#!/usr/bin/env python
 
 # This class is used to minify JS and CSS files. 
 # @author Nitesh Morajkar
@@ -157,4 +157,5 @@ if validateArgsObj.validateArgs():
     else:
         print Usage()
 else:
-    Usage(){% endhighlight %}
+    Usage()
+```

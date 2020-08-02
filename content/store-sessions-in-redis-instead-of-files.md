@@ -35,7 +35,7 @@ Another solution would to use **In-memory cache engine** like **Redis** which is
 
 ## Using Redis as a Session-Store on your server
 
-{% highlight php %}
+``` php
 ini_set('session_save_handler', 'redis');
 ini_set('session_save_path', 'tcp://host1:6379?weight=1, tcp://host2:6379?weight=2');
-{% endhighlight %}
+```

@@ -11,6 +11,7 @@ I’m releasing [TimeToGo v1.0.0](https://github.com/nitesh-/TimeToGo) class whi
 So basically, TimeToGo determines time left between the current date and a future date very much like ‘10 days to go or 1 month to go’.
 
 ## Usage:
-
-    String timeToGo = TimeToGo.getTimeLeft("2014-11-29"); // Date Should be YYYY-mm-dd format
-    System.out.println(timeToGo);
+``` java
+String timeToGo = TimeToGo.getTimeLeft("2014-11-29"); // Date Should be YYYY-mm-dd format
+System.out.println(timeToGo);
+```

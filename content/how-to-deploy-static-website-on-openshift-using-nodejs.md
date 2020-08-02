@@ -19,7 +19,7 @@ It is no big deal to create a .php extension page, but I wanted the web stack to
 *   `cd` into the cloned directory. Find the **server.js** which is your HTTP server.
 *   You have to configure the HTTP server according to your requirements. I suggest you create a **public_html**(or any other name) directory inside the cloned directory so that the Openshift files are not exposed.
 *   You can Refer the server.js below if you don’t want to scratch your head.
-
+    ``` js
     #!/bin/env node
     //  OpenShift sample Node application
     var express = require('express');
@@ -176,5 +176,5 @@ It is no big deal to create a .php extension page, but I wanted the web stack to
     var myAppObj = new MyApp();
     myAppObj.initialize();
     myAppObj.start();
-
+    ```
 *   Edit the `publicDirectory` variable, Commit the code and Push it to Openshift. Your static Website using nodejs should be LIVE.
