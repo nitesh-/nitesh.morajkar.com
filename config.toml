@@ -13,6 +13,10 @@ googleAnalytics = "UA-35037605-1"
   description ="My coding blog!"
   #mailchimp = "you can provide a mailchimp-link here"
 
+[params.meta]
+  description = "This is Nitesh Morajkar's personal space where he shares his experiences and learnings."
+  keywords = "nitesh,morajkar,niteshmorajkar,nitesh morajkar,golang,php,javascript,html,css,nodejs"
+
 [params.author]
   name = "Nitesh Morajkar"
   thumbnail = "/images/author.jpg"
