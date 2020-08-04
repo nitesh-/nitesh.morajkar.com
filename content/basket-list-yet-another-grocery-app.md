@@ -26,7 +26,7 @@ So here are the features of Basket list.
 1.  More than 450 items.
 2.  All items are categorized.
 3.  Make different Grocery lists.
-4.  You can share these list with anyone.
+4.  You can share this list with anyone.
 5.  Each item is translated in English, Telugu, Hindi and Kannada.
 
 You can download the app [here](https://play.google.com/store/apps/details?id=com.moduluslabs.basketlist).
